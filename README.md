@@ -1,5 +1,15 @@
 # Assignment 1
 
+## Setup with virtual env and pip
+
+To set up your environment to run this notebook, create a virtual environment with python 3.8, then pip install the following dependencies.
+
+    pip install jupyterlab numpy scipy matplotlib pandas torch nose
+    
+Then you can open the notebook from the command line with:
+
+    jupyter-lab pset1.ipynb
+
 **This assignment is designed to be completed in 3 weeks. Please start early!**
 
 The entry point and spec for this project is `pset1.ipynb`. It is a [Jupyter notebook](https://jupyter.org/) and we recommend installing [JupyterLab](https://jupyter.org/install.html) to run it. You can find a preview of the notebook by clicking the file on GitLab in a browser. To setup the computing resources and environments, see [this document](https://docs.google.com/document/d/1iuG6dNRAuhOU7K2ZeLNzIaV1w2InvMGq6VazBzZKFu4/edit?usp=sharing).
