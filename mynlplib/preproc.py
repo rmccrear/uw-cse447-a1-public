@@ -37,7 +37,7 @@ def aggregate_counts(bags_of_words):
 def compute_oov(bow1, bow2):
     '''
     Return a set of words that appears in bow1, but not bow2
-
+    These words are "out of vocabulary" (oov)
     :param bow1: a bag of words
     :param bow2: a bag of words
     :returns: the set of words in bow1, but not in bow2
